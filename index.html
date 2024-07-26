@@ -8,7 +8,44 @@
 </head>
 <body>
   <!-- YOUR CODE HERE -->
-  
+  <div class="container">
+    <form id = "cityForm">
+      <input type = "text" id="cityInput" placeholder="Enter city name...">
+      <button type = "submit" class = "btn">Search</button>
+    </form>
+    <div class = "main">
+      <div class = "header">
+        <div class = "title">
+          <ul>
+            <li id = "city_name"></li>
+            <li id = "temperature"></li>
+          </ul>
+        </div>
+        <img id = "timeImage">
+      </div>
+      <div class ="table">
+        <table>
+          <tr>
+            <td class = "td">Country</td>
+            <td  id = "country"></td>
+          </tr>
+          <tr>
+            <td class = "td">Timezone</td>
+            <td id = "timezone"></td>
+          </tr>
+          <tr>
+            <td class = "td">Population</td>
+            <td id = "population"></td>
+          </tr>
+          <tr>
+            <td class = "td">Tomorrow's Foracast</td>
+            <td><p>High:<span id = "tomorrow_max"></span>C°</p>
+              <p>Low:<span id = "tomorrow_min"></span>C°</p></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
   <script src="./app.js"></script>
 </body>
 </html>

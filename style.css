@@ -1,0 +1,84 @@
+
+body {
+  margin: 0;
+}
+
+.bodyNight{
+  background-color: black;
+  color: white;
+}
+
+.main{
+  display: none;
+}
+
+.appearMain {
+  display: block;
+}
+
+#cityInput {
+  width: 400px;
+}
+
+#cityForm {
+  text-align: center;
+  margin: 30px;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 600px;
+}
+
+.table th, table td{
+  border: 1px solid rgb(183, 183, 183);
+  padding: 20px;
+}
+
+.td{
+  width: 200px;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top:60%;
+  left: 20%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; 
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+#city_name{
+  font-size: 3rem;
+}
+
+#temperature{
+  margin-top: 15px;
+  font-size: 2rem;
+}
+
+img {
+  display: block;
+	width: 100%;
+	height: 300px;
+  object-fit: cover;
+}
+
